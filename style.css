@@ -1,0 +1,79 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Epilogue', sans-serif;
+    color: hsl(0, 0%, 8%);
+  }
+  
+  /* Header and Navigation */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+    padding: 1em;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .cta {
+    padding: 0.8em 2em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+  }
+  
